@@ -1,0 +1,1132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%x;
+    height: 120px;
+    background-color:#f5f6f7;
+}
+header .menus{
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    align-items: center;
+}
+header .menus .brushes {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+header .menus .brushes .brush{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 3px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+header .menus .brushes .brush img{
+    width: 20px;
+    height: 25px;
+    margin-left: 13px;
+    margin-top: 3px;
+    background-color: transparent;
+}
+header .menus .brushes .brush .thin1{
+    width: 20px;
+    height: 1px ;
+    background-color: black;
+    margin: auto;
+}
+header .menus .brushes .brush .thin2{
+    width: 20px;
+    height: 2px ;
+    background-color: black;
+    margin: auto;
+}
+header .menus .brushes .brush .thin3{
+    width: 20px;
+    height: 3px ;
+    background-color: black;
+    margin: auto;
+}
+header .menus .brushes .brush .thin4{
+    width: 20px;
+    height: 4px ;
+    background-color: black;
+    margin: auto;
+}
+header .menus .brushes .brush .thin5{
+    width: 20px;
+    height: 5px ;
+    background-color: black;
+    margin: auto;
+}
+header .menus .brushes .brush .thin6{
+    width: 20px;
+    height: 6px ;
+    background-color: black;
+    margin: auto;
+    margin-top: -2px;
+}
+header .menus .brushes .brush .thin7{
+    width: 20px;
+    height: 8px ;
+    background-color: black;
+    margin: auto;
+    margin-top: -2px;
+}
+header .menus .brushes .brush .thin8{
+    width: 20px;
+    height: 9px ;
+    background-color: black;
+    margin: auto;
+    margin-top: -2px;
+}
+header .menus .brushes .active{
+    background-color: #c9e0f7;
+}
+
+header .menus .eraser-Box .eraser{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-right: 20px;
+}
+
+header .menus .eraser-Box .eraser:hover{
+    border: 1px solid #c9e0f7;
+    cursor: pointer;
+}
+header .menus .eraser-Box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header .menus .eraser-Box .eraser img{
+    width: 100%;
+    height: 100%;
+}
+header .menus .eraser-Box .eraser .heading{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: gray;
+}
+
+header .menus .shapes-box {
+    margin-left: 20px;
+}
+
+header .menus .shapes-box .shapes{
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: flex;
+}
+header .menus .shapes-box .shapes .shape{
+    width: 20px;
+    height: 20px;
+    margin: 3px 5px;
+}
+header .menus .shapes-box .shapes .active-shape{
+    border: 1px solid green;
+}
+header .menus .shapes-box .shapes .shape i{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+header .menus .shapes-box .shape-logo{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: cadetblue;
+}
+
+/* line */
+header .menus .line{
+    width: 1px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+header .menus .currentColor .wrapper{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border:1px solid rgba(0,0,0,0.1);
+}
+
+header .menus .currentColor .color{
+    width:100%;
+    height: 100%;
+    background-color:pink;
+}
+header .menus .currentColor  .heading{
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+/* color box  coding */
+header .menus .color-box{
+    width: 250px;
+    margin-left: 15px;
+}
+header .menus .color-box .colors{
+    display: flex;
+    flex-wrap: wrap;
+}
+header .menus .color-box .colors .color1{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color1 .color{
+    width:100%;
+    height:100%;
+    background-color: red;
+    cursor: pointer;
+}
+
+header .menus .color-box .colors .color2{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color2 .color{
+    width:100%;
+    height:100%;
+    background-color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+header .menus .color-box .colors .color3{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color3 .color{
+    width:100%;
+    height:100%;
+    background-color:green;
+    cursor: pointer;
+}
+
+header .menus .color-box .colors .color4{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color4 .color{
+    width:100%;
+    height:100%;
+    background-color:black;
+    cursor: pointer;
+}
+
+header .menus .color-box .colors .color5{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color5 .color{
+    width:100%;
+    height:100%;
+    background-color:chartreuse;
+    cursor: pointer;
+}
+
+
+header .menus .color-box .colors .color6{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color6 .color{
+    width:100%;
+    height:100%;
+    background-color:tomato;
+    cursor: pointer;
+}
+
+
+header .menus .color-box .colors .color7{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color7 .color{
+    width:100%;
+    height:100%;
+    background-color:darkslategrey;
+    cursor: pointer;
+}
+/* end of color  */
+
+
+header .menus .color-box .colors .color8{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color8 .color{
+    width:100%;
+    height:100%;
+    background-color:lightgreen;
+    cursor: pointer;
+}
+/* end of color  */
+
+
+header .menus .color-box .colors .color9{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color9 .color{
+    width:100%;
+    height:100%;
+    background-color:crimson;
+    cursor: pointer;
+}
+/* end of color  */
+
+
+
+header .menus .color-box .colors .color10{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color10 .color{
+    width:100%;
+    height:100%;
+    background-color:darkorange;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color11{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color11 .color{
+    width:100%;
+    height:100%;
+    background-color:brown;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color12{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color12 .color{
+    width:100%;
+    height:100%;
+    background-color:darkcyan;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color13{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color13 .color{
+    width:100%;
+    height:100%;
+    background-color:bisque;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color14{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color14 .color{
+    width:100%;
+    height:100%;
+    background-color:cornflowerblue;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color15{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color15 .color{
+    width:100%;
+    height:100%;
+    background-color:darksalmon;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color16{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color16 .color{
+    width:100%;
+    height:100%;
+    background-color:grey;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color17{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color17 .color{
+    width:100%;
+    height:100%;
+    background-color:purple;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color18{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color18 .color{
+    width:100%;
+    height:100%;
+    background-color:khaki;
+    cursor: pointer;
+}
+/* end of color  */
+
+header .menus .color-box .colors .color19{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color19 .color{
+    width:100%;
+    height:100%;
+    background-color:coral;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color20{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color20 .color{
+    width:100%;
+    height:100%;
+    background-color:dimgrey;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color21{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color21 .color{
+    width:100%;
+    height:100%;
+    background-color:lightblue;
+    cursor: pointer;
+}
+/* end of color  */
+
+header .menus .color-box .colors .color22{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color22 .color{
+    width:100%;
+    height:100%;
+    background-color:palegreen;
+    cursor: pointer;
+}
+/* end of color  */
+
+header .menus .color-box .colors .color23{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color23 .color{
+    width:100%;
+    height:100%;
+    background-color:olivedrab;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color24{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color24 .color{
+    width:100%;
+    height:100%;
+    background-color:tan;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color25{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color25 .color{
+    width:100%;
+    height:100%;
+    background-color:rgb(255, 121, 255);
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color26{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color26 .color{
+    width:100%;
+    height:100%;
+    background-color:honeydew;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color27{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color27 .color{
+    width:100%;
+    height:100%;
+    background-color:mediumslateblue;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color28{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color28 .color{
+    width:100%;
+    height:100%;
+    background-color:gold;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color29{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color29 .color{
+    width:100%;
+    height:100%;
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+/* end of color  */
+header .menus .color-box .colors .color30{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+}
+header .menus .color-box .colors .color30 .color{
+    width:100%;
+    height:100%;
+    background-color:#eee;
+    cursor: pointer;
+}
+
+/* end of color  */
+
+header .menus .color-box h6{
+    font-size: 0.8rem;
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+
+/* end of color box------------------------------- */
+/* start the color picker box ----------------- */
+header .menus .color-picker{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+header .menus .color-picker input{
+    opacity: 0;
+}
+header .menus .color-picker label .imgWrapper{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid rgba(0,0,0,0.1);width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+header .menus .color-picker label .imgWrapper img{
+    width: 100%;
+    height: 100%;
+}
+header .menus .color-picker label .heading{
+    font-style: 0.6rem;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: center;
+    width: 33px;
+}
+
+/* pen size menu coding------------------------ */
+.size-section{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.size-section:hover .size-selector{
+    display: block;
+}
+.size-section .size-box{
+    width: 40px;
+    height: 50px;
+}
+.size-section .size-box .size1{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+.size-section .size-box .size2{
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    margin-top: 4px;
+}
+.size-section .size-box .size3{
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    margin-top: 4px;
+}
+.size-section .size-box .size4{
+    width: 100%;
+    height: 7px;
+    background-color: #000;
+    margin-top: 4px;
+}
+.size-section .size-box .heading{
+    font-size: 0.8rem;
+    text-align: center;
+    color:gray;
+    font-weight: 400;
+}
+.size-section .size-box i{
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.size-section .size-selector{
+    width: 160px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.1);
+    position:absolute;
+    top: 15%;
+    padding: 20px 0px 20px 0px;
+    display: none;
+    transition: all ease 5s;
+
+}
+.size-section .size-selector .SizeBox1{
+    width: 90%;
+    height: 30px;
+    /* border: 1px solid #c9e0f7; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.size-section .size-selector .activeLine{
+    border: 1px solid #c9e0f7;
+    background-color: #c9e0f73f;
+}
+.size-section .size-selector .SizeBox1 .low{
+    width: 90%;
+    height: 1px;
+    background-color: #000;
+}
+.size-section .size-selector .SizeBox2{
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.size-section .size-selector .SizeBox2 .midlow{
+    width: 90%;
+    height: 2px;
+    background-color: #000;
+}
+.size-section .size-selector .SizeBox3{
+    width: 90%;
+    height: 30px;
+    /* border: 1px solid #c9e0f7; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.size-section .size-selector .SizeBox3 .middle{
+    width: 90%;
+    height: 4px;
+    background-color: #000;
+}
+.size-section .size-selector .SizeBox4{
+    width: 90%;
+    height: 30px;
+    /* border: 1px solid #c9e0f7; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* background-color: #c9e0f73f; */
+    
+}
+.size-section .size-selector .SizeBox4 .high{
+    width: 90%;
+    height: 8px;
+    background-color: #000;
+}
+
+/*---------------------------- text write on canvas ---------------------------- */
+header .menus .Text-section{
+    margin-left: 30px;
+}
+header .menus .Text-section .Text{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menus .Text-section .Text i{
+    font-size: 30px;
+    font-weight: 800;
+}
+header .menus .TextandStylingBox{
+    width: 450px;
+    height: 400px;
+    border: 1px solid rgba(0,0,0,0.1);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    transition: all ease 3s;
+    display: none;
+    z-index: 11;
+    background-color: #fff;
+}
+header .menus .TextandStylingBox .textArea{
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+header .menus .TextandStylingBox .textArea  label{
+    font-size: 1.3rem;
+    color: gray;
+}
+header .menus .TextandStylingBox .textArea textarea{
+    width: 90%;
+    height:80px;
+    border: 1px solid #333;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+header .menus .TextandStylingBox .cordinateFields{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+header .menus .TextandStylingBox .cordinateFields .xCordinate{
+    width: 70px;
+    margin-left: 20px;
+}
+header .menus .TextandStylingBox .cordinateFields .xCordinate input,.yCordinate input{
+    height: 30px;
+    width: 100px;
+    font-size: 1rem;
+    padding-left: 3px;
+    border: 1px solid #333;
+}
+header .menus .TextandStylingBox .cordinateFields .xCordinate h3, .yCordinate h3{
+    font-weight: 400;
+    color: gray;
+}
+header .menus .TextandStylingBox .cordinateFields .yCordinate{
+    width: 60px;
+    margin-left: 140px;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    padding-left: 30px;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontSize .heading{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontSize select{
+    width: 80px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 3px;
+    cursor: pointer;
+    border: 1px solid #333;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontStyle{
+    margin-left: 30px;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontStyle .heading{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontStyle select{
+    width: 130px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #333;
+    margin-top: 3px;
+    cursor: pointer;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox {
+    width: 150px;
+    margin-left: 30px;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .colorChooser{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   margin-top: 10px;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .colorChooser .chooser{
+    width: 90%;
+    margin-left: 0px;
+ 
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .colorChooser .chooser .imgWrapper{
+    width: 90%;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 3px;
+    margin-left: 0px;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .colorChooser .chooser .imgWrapper img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .colorChooser .chooser input{
+    opacity: 0;
+}
+
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 3px 3px;
+    z-index: 111;
+}
+
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color1{
+    width:100%;
+    height:100%;
+    background-color:rgb(211, 255, 14);
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color2{
+    width:100%;
+    height:100%;
+    background-color:rgb(0, 255, 242);
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color3{
+    width:100%;
+    height:100%;
+    background-color:purple;
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color4{
+    width:100%;
+    height:100%;
+    background-color:crimson;
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color5{
+    width:100%;
+    height:100%;
+    background-color:darkorange;
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color6{
+    width:100%;
+    height:100%;
+    background-color:black;
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color7{
+    width:100%;
+    height:100%;
+    background-color:rgb(0, 26, 255);
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color8{
+    width:100%;
+    height:100%;
+    background-color:rgb(1, 255, 65);
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color9{
+    width:100%;
+    height:100%;
+    background-color:rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .FontsizeAndFontFamily .fontColorBox .fontColor .colorBorder .color10{
+    width:100%;
+    height:100%;
+    background-color:rgb(255, 21, 138);
+    cursor: pointer;
+    z-index: 111;
+}
+header .menus .TextandStylingBox .buttons button{
+    width: 80px;
+    height: 25px;
+    background-color: #c9e0f7;
+    color: #000;
+    border: 1px solid #c9e0f7;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    margin: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+header .menus .TextandStylingBox .buttons #cancle{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+/* start the canvas  */
+canvas{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* button */
